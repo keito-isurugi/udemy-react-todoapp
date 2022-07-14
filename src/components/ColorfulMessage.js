@@ -1,8 +1,8 @@
 import React from "react";
 
 const ColorfulMessage = (props) => {
+  console.log("からふる");
   const { color, message, children } = props;
-  console.log(props);
   const contentStyle = {
     color: color,
     fontSize: "18px"
